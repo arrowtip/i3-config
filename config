@@ -290,6 +290,8 @@ for_window [class="KeePassXC"] move scratchpad
 bindsym $mod+p [class="KeePassXC"] scratchpad show
 # bindsym $mod+p scratchpad show
 
+exec --no-startup-id nextcloud --background
+
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
 
